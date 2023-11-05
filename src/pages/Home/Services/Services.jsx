@@ -6,6 +6,8 @@ import ServiceCard from "./ServiceCard";
 // DRY --> Do not Repeat Yourself
 const Services = () => {
     const [asc, setAsc] = useState(true);
+    // const [min, setMin] = useState(undefined);
+    // const [max, setMax] = useState(undefined);
     const services = useServices(asc);
     // const [services, setServices] = useState([]);
 
